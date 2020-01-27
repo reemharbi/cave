@@ -3,7 +3,8 @@
 ## React Concepts:
 - **Don't touch the DOM, I'll do it.** DOM is the Document Object Model. It's what the browser uses to display a web site or a web app and javascript is simply manipulating the DOM.
 - **Build websites like lego blocks.** The concept of reusable components. Small components that you put together to make larger components.
-- **Unidirectional data flow.** React builds using VirtualDOM which is essentially a javscript version of the DOM. and then that will send a blueprint to the DOM on how the app should look like. Data can never move up. It only moves down all the way to the DOM so if any changes happen that change 
+- **Unidirectional data flow.** React builds using VirtualDOM which is essentially a javscript version of the DOM. and then that will send a blueprint to the DOM on how the app should look like. Data can never move up. It only moves down all the way to the DOM so if any changes happen that change the state we go back to the state and that state change trickles down to different components in one direction.
+- **I'm just the UI, the rest is up to you.** React only deals with the UI, everything else is done by using other modules and libraries to mix and match.
 
 
 
